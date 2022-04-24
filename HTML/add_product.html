@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD product</title>
+    <link rel="icon" type="image/png" href="./../assests/concert.png" />
+    <link href="./../CSS/login.css" rel="stylesheet" >
+ 
+    
+</head>
+<body>
+   
+    <section id="about">
+        <div class="container" style="margin-top: 0px; margin-bottom: 10px;">
+            <header class="section-header" id="hh2">
+                <h1 style="font-size:xx-large; color: rgb(163, 88, 147); ">ADD PRODUCT</h1>
+    
+                <form method="POST" action="./../PHP/add_product.php">
+                <div class="row align-items-center" style="margin-left: 150px;">
+                    <label for="nom">Name</label> <br>
+                    <input type="text" id="nom" name="nom" class="form-control" required > <br>
+
+                    <label for="cat">Category</label> <br>
+
+                   <select name="category" id="cat" class="form-control " style="width: 60%;">
+                    <option value="Rock">Rock</option>
+                    <option value="Electronic dance music">Electronic dance music</option>
+                    <option value="Heavy metal">Heavy metal</option>
+                    <option value="RnB">RnB</option>
+                    <option value="Rap">Rap</option>
+                    <option value="Pop">Pop</option>
+                    <option value="Techno">Techno</option>
+                    <option value="House Music">House Music</option>
+                   </select> 
+                   <br>
+                    <label for="description">Description</label> <br>
+                    <input type="textarea" id="description" name="description" class="form-control"  required > <br>
+                    <label for="prix">Price</label> <br>
+                    <input type="number" id="prix" name="prix"  class="form-control" required > <br>
+                    <label for="nb_ticket">Ticket number</label> <br>
+                    <input type="number" id="nb_ticket" name="nb_ticket" class="form-control"  required > <br>
+                    <label for="place">Place</label> <br>
+                    <input type="text" id="place" name="place" class="form-control" required > <br>
+                    <label for="date">Date</label> <br>
+                    <input type="date" id="date" name="date" class="form-control" required > <br>
+                    <label for="time">time</label> <br>
+                    <input type="time" id="time" name="time" class="form-control" required > <br>
+                    <label for="pic">Picture</label> <br>
+                    <input type="file" id="pic" name="pic" class="form-control" accept="image/*" required > <br>
+                    
+                    <input type="Submit" name="Connect" class="bt" value="ADD" > 
+                </div>
+            </form>                </header>
+        </div>
+        
+    </section>
+
+</body>
+</html>

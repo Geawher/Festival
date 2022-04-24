@@ -1,0 +1,117 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    /*background-image: radial-gradient(circle at center, rgb(100, 115, 146), rgb(60, 50, 61));*/
+  
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  background: radial-gradient(ellipse at bottom, #567391, #28162e);
+  background-size: cover;
+  background-repeat: repeat;
+ /* background-image: url(./../assests/1.jpg);*/
+    font-weight: 300;
+    overflow: scroll; 
+  }
+  h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    margin: 0 0 20px;
+    padding: 0
+} 
+
+
+.section-header h1 {
+    font-size: 64px;
+    color: #c5dbee;
+    text-align: center;
+    font-weight: 800;
+    position: relative
+}
+
+.section-header h1 span {
+    font-weight: 800
+}
+
+.section-header p {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    font-size: 17px;
+    
+    color: #556877;
+    width: 50%
+}
+section
+{
+  position: absolute;
+  right: 430px;
+  height: 500px;
+  
+  width: 450px;
+}
+#hh{ 
+ background: radial-gradient(ellipse at bottom, #567391, #28162e); ;
+    border-radius: 10px;
+    height: 350px;
+    align-content: center;
+    box-shadow: 10px 10px 20px #a16095, -10px -10px 20px #a16095;
+    font-family:cursive;
+    color: #b1b6c7; 
+  }
+  .bt {
+    display: inline-block;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #dce3eb;
+    border: 1px solid rgb(58, 52, 52);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+  } 
+  .bt:hover {
+    background-color: rgb(151, 98, 138);
+    border: 1px solid #dce3eb;
+    color: #dce3eb;
+
+  }
+  
+.form-control {
+    display: block;
+    width: 50%;
+    height: 50%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 360;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+#hh1{
+  background: radial-gradient(ellipse at bottom, #567391, #28162e); ;
+    border-radius: 10px;
+    height: 500px;
+    align-content: center;
+    box-shadow: 10px 10px 20px #a16095, -10px -10px 20px #a16095;
+    font-family:cursive;
+    color: #b1b6c7; 
+  }
+  .form-group {
+    margin-bottom: 1rem
+}
+label 
+{
+    text-decoration: cornflowerblue;
+}

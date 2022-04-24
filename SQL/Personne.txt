@@ -1,0 +1,13 @@
+
+create table personne (
+id_pers int AUTO_INCREMENT,
+nom varchar (50) NOT NULL,
+    prenom varchar (50) NOT NULL,
+    email varchar (50) NOT NULL UNIQUE,
+    PASSWORD varchar (50) NOT NULL,
+sexe varchar (10) NOT NULL ,
+datenaiss date NOT NULL ,
+    role varchar(10) NOT NULL,
+CONSTRAINT pk_personne PRIMARY KEY (id_pers)
+
+);

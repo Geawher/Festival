@@ -1,0 +1,15 @@
+create table evenement ( 
+id_event int AUTO_INCREMENT, 
+name varchar (50) NOT NULL UNIQUE, 
+description varchar (150) NOT NULL,
+ price int,
+ nb_ticket int ,
+ place varchar(50),
+ date_event date, 
+time_event time,
+ picture varchar(350), 
+CONSTRAINT pk_even PRIMARY KEY (id_event) 
+
+)
+
+ALTER TABLE evenement ADD COLUMN category varchar (50) NOT NULL
